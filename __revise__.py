@@ -11,7 +11,7 @@ def revise(resume: str, job_description: str):
     content = str(resume) + "\n\n" + job_description
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {
                 "role": "system",
