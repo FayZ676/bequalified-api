@@ -7,9 +7,10 @@ The bequalified project will be the most advanced and accessable personal assist
 
 ## Future Abilities
 - Automatically develop and deploy a sick personal website based on a user's resume.
+- Streamlit Interface
 
 ## Setup
 > 1. git clone <https://github.com/FayZ676/be-qualified-api>
 > 2. pip install -r requirements.txt
 > 3. change `.env.local` to `.env` and add your openai api key
-> 3. uvicorn main:app --reload
+> 4. uvicorn main:app --reload
